@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
-// import { BrowserRouter } from 'react-router-dom';
-import { HashRouter, Route, Link, Switch, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+// import { HashRouter, Route, Link, Switch, BrowserRouter } from 'react-router-dom';
 
 
 // const getCurrentDate = () => {
@@ -24,5 +24,5 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
-// serviceWorker.unregister();
+serviceWorker.unregister();
 
