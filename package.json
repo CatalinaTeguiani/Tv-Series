@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://catalinateguiani.github.io/Tv-Series",
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "react-scripts": "3.0.1"
   },
   "dependencies": {
